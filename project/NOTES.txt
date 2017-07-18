@@ -1,0 +1,14 @@
+BIAR BISA DIAKSES DR LUAR
+
+Get the internal IP or Static IP of the server (Ex: 192.168.1.193)
+Open XAMPP>apache>conf>httpd.conf file in notepad.
+Search for Listen 80.
+Above line would read like- #Listen 0.0.0.0:80 / 12.34.56.78:80.
+Change the IP address and replace it with the static IP.
+
+
+Biar bisa langsung diakses
+Edit the httpd.conf file and replace the line DocumentRoot "/home/user/www" to your liked one.
+
+The default DocumentRoot path will be different for windows [the above is for linux].
+
